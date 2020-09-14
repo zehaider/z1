@@ -1,0 +1,1330 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>ULqv1MuzBq695kc-gt-43498348-2020-09-14T20:47:24.752Z::tf.xml</types1:EntryId>
+      <types1:Name>AIR_MASTER</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>zsub</types1:CreatedBy>
+      <types1:CreationDate>2020-09-14T20:47:25Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="AIR_MASTER"
+                   name="AIR_MASTER"
+                   overrideAPIName="false">
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <tempFields>
+               <field description="" name="PNR" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:RIGHTREZ-to-SF-AIR-PNR</option>
+                  </options>
+               </field>
+               <field description="" name="PNRSTOREDFARE_AMERICAS" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:Rightrezdb02-to-SF-PNRSTOREDFARE-AMERICAS</option>
+                  </options>
+               </field>
+               <field description="" name="PNRSTOREDFARE_OCEAN" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:RIGHTREZ-to-SF-AIR-PNRSTOREDFARE-OCEAN</option>
+                  </options>
+               </field>
+               <field description="" name="PNR_AMERICAS" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:Rightrezdb02-to-SF-PNR-AMERICAS</option>
+                  </options>
+               </field>
+               <field description="" name="AIRALLIANCE_TBL" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIRALLIANCE-TBL</option>
+                  </options>
+               </field>
+               <field description="" name="AIRBOOKINGSCOSTAGG_TBL" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIRBOOKINGSCOSTAGG-TBL</option>
+                  </options>
+               </field>
+               <field description="" name="PNR_ABE" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:ABE-PNR-to-SF-AIR-ABE-PNR</option>
+                  </options>
+               </field>
+               <field description="" name="PNR_SEAT_ABE" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:ABE-PNRSEAT-to-SF-AIR-ABE-PNRSEAT</option>
+                  </options>
+               </field>
+               <field description="" name="PNR_STOREDFARE_ABE" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:ABE-PNR-STOREDFARE-to-SF-AIR-ABE-PNR-STOREDFARE</option>
+                  </options>
+               </field>
+               <field description="" name="PNR_OCEAN" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:RIGHTREZ-to-SF-AIR-PNR-OCEAN</option>
+                  </options>
+               </field>
+               <field description="" name="PNR_STOREDFARE" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:RIGHTREZ-to-SF-AIR-PNRSTOREDFARE</option>
+                  </options>
+               </field>
+               <field description="" name="AIRQUALITYCONNECTION_TBL" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIRQUALITYCONNECTION-TBL</option>
+                  </options>
+               </field>
+               <field description="" name="AIRQUALITYFLIGHTTIME_TBL" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIRQUALITYFLIGHTTIME-TBL</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="AIRQUALITYSEATING_DASHBOARD_TBL"
+                      type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIRQUALITYSEATING-DASHBOARD-TBL</option>
+                  </options>
+               </field>
+               <field description="" name="AIR_QUALITY_BOOKINGS_2017_V2" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-2017-V2</option>
+                  </options>
+               </field>
+               <field description="" name="AIR_QUALITY_BOOKINGS_V2" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-V2</option>
+                  </options>
+               </field>
+               <field description="" name="AIR_QUALITY_BOOKINGS_V2_2018" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2018</option>
+                  </options>
+               </field>
+               <field description="" name="GIO_TEST_TRAVEL_WITH" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-GIO-TEST-TRAVEL-WITH</option>
+                  </options>
+               </field>
+               <field description="" name="AIR_QUALITY_BOOKINGS_V2_2019" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2019</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="verbose">
+               <rest/>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="k8yqryfw" targetId="k8yqryfv"/>
+               </start>
+               <container id="k8yqryfv" type="parallel">
+                  <title>Parallel Paths 1 (ABE Tables)</title>
+                  <flow id="k8yqryg2">
+                     <eventContainer id="k8yqryrk">
+                        <service id="k8yqrykf">
+                           <title>PNR_ABE</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">ABE_PNR_to_SF_AIR_ABE_PNR</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">j3QZ9c2qNC3iwLBN6eaYS9</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="ABE-PNR-to-SF-AIR-ABE-PNR">temp.PNR_ABE</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNR_ABE/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNR_ABE/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNR_ABE/fault"
+                                  id="k8yqryri"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNR_ABE/fault"
+                                  id="k8yqryrj"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="k8yqryg3" targetId="k8yqryfv" type="containerLink"/>
+                  </flow>
+                  <flow id="k8yqrygm">
+                     <eventContainer id="k8yqrytf">
+                        <service id="k8yqrykv">
+                           <title>PNR_SEAT_ABE</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">ABE_PNRSEAT_to_SF_AIR_ABE_PNRSEAT</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">4zBy6f1Qk3yiRabL7L0xKF</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="ABE-PNRSEAT-to-SF-AIR-ABE-PNRSEAT">temp.PNR_SEAT_ABE</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNR_SEAT_ABE/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNR_SEAT_ABE/fault"
+                                  id="k8yqrytd"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNR_SEAT_ABE/fault"
+                                  id="k8yqryte"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="k8yqrygn" targetId="k8yqryfv" type="containerLink"/>
+                  </flow>
+                  <flow id="k8yqryh3">
+                     <eventContainer id="k8yqrywr">
+                        <service id="k8yqrylr">
+                           <title>PNR_STOREDFARE_ABE</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">ABE_PNR_STOREDFARE_to_SF_AIR_ABE_PNR_STOREDFARE</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">fzxysWsnt2lbAVk7x6HbUN</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="ABE-PNR-STOREDFARE-to-SF-AIR-ABE-PNR-STOREDFARE">temp.PNR_STOREDFARE_ABE</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE_ABE/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNR_STOREDFARE_ABE/fault"
+                                  id="k8yqrywp"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNR_STOREDFARE_ABE/fault"
+                                  id="k8yqrywq"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="k8yqryh4" targetId="k8yqryfv" type="containerLink"/>
+                  </flow>
+                  <link id="k8yqryg1" targetId="k8yqryg2" type="containerLink"/>
+                  <link id="k8yqrygl" targetId="k8yqrygm" type="containerLink"/>
+                  <link id="k8yqryh2" targetId="k8yqryh3" type="containerLink"/>
+                  <link id="kaagii26" targetId="k8yqryg8"/>
+               </container>
+               <container id="k8yqryg8" type="parallel">
+                  <title>Parallel Paths 2 (Right Rez)</title>
+                  <flow id="k8yqrygc">
+                     <eventContainer id="k8yqrz03">
+                        <service id="k8yqrymn">
+                           <title>PNR</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">RIGHTREZ_to_SF_AIR_PNR</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">i5GhtoViuaihOOdvkKWeAN</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="RIGHTREZ-to-SF-AIR-PNR">temp.PNR</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNR/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNR/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNR/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNR/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNR/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNR/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNR/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNR/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNR/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNR/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNR/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNR/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNR/fault"
+                                  id="k8yqrz01"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNR/fault"
+                                  id="k8yqrz02"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="k8yqrygd" targetId="k8yqryg8" type="containerLink"/>
+                  </flow>
+                  <flow id="k8yqrygf">
+                     <eventContainer id="k8yqrz0w">
+                        <service id="k8yqryn3">
+                           <title>PNRSTOREDFARE_AMERICAS</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">Rightrezdb02_to_SF_PNRSTOREDFARE_AMERICAS</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">9wyXQWk4xC4dhIdIxrOwW8</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="Rightrezdb02-to-SF-PNRSTOREDFARE-AMERICAS">temp.PNRSTOREDFARE_AMERICAS</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.PNRSTOREDFARE_AMERICAS/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.PNRSTOREDFARE_AMERICAS/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.PNRSTOREDFARE_AMERICAS/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.PNRSTOREDFARE_AMERICAS/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_AMERICAS/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNRSTOREDFARE_AMERICAS/fault"
+                                  id="k8yqrz0u"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNRSTOREDFARE_AMERICAS/fault"
+                                  id="k8yqrz0v"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="k8yqrygg" targetId="k8yqryg8" type="containerLink"/>
+                  </flow>
+                  <flow id="k8yqryi0">
+                     <eventContainer id="k8yqrz2i">
+                        <service id="k8yqrynz">
+                           <title>PNRSTOREDFARE_OCEAN</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">RIGHTREZ_to_SF_AIR_PNRSTOREDFARE_OCEAN</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">kojOrcAWt0NjyCcxSGMiYB</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="RIGHTREZ-to-SF-AIR-PNRSTOREDFARE-OCEAN">temp.PNRSTOREDFARE_OCEAN</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNRSTOREDFARE_OCEAN/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNRSTOREDFARE_OCEAN/fault"
+                                  id="k8yqrz2g"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNRSTOREDFARE_OCEAN/fault"
+                                  id="k8yqrz2h"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="k8yqryi1" targetId="k8yqryg8" type="containerLink"/>
+                  </flow>
+                  <flow id="k8yqryid">
+                     <eventContainer id="k8yqrz41">
+                        <service id="k8yqryof">
+                           <title>PNR_AMERICAS</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">Rightrezdb02_to_SF_PNR_AMERICAS</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">5n3SFXbKKu2jVhR8U80Iah</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="Rightrezdb02-to-SF-PNR-AMERICAS">temp.PNR_AMERICAS</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNR_AMERICAS/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNR_AMERICAS/fault"
+                                  id="k8yqrz3z"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNR_AMERICAS/fault"
+                                  id="k8yqrz40"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="k8yqryie" targetId="k8yqryg8" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6hss">
+                     <eventContainer id="kdqy6htq">
+                        <service id="kdqy6ht9">
+                           <title>PNR_OCEAN</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">RIGHTREZ_to_SF_AIR_PNR_OCEAN</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">1VAMOKXuEGChwNKT0g69kF</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="RIGHTREZ-to-SF-AIR-PNR-OCEAN">temp.PNR_OCEAN</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNR_OCEAN/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNR_OCEAN/fault"
+                                  id="kdqy6hto"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNR_OCEAN/fault"
+                                  id="kdqy6htp"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6hst" targetId="k8yqryg8" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6huw">
+                     <eventContainer id="kdqy6hvw">
+                        <service id="kdqy6hve">
+                           <title>PNR_STOREDFARE</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">RIGHTREZ_to_SF_AIR_PNRSTOREDFARE</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">9u004Y9OwUUdW1dHAKRoQn</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="RIGHTREZ-to-SF-AIR-PNRSTOREDFARE">temp.PNR_STOREDFARE</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.PNR_STOREDFARE/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.PNR_STOREDFARE/fault"
+                                  id="kdqy6hvu"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.PNR_STOREDFARE/fault"
+                                  id="kdqy6hvv"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6hux" targetId="k8yqryg8" type="containerLink"/>
+                  </flow>
+                  <link id="k8yqrygb" targetId="k8yqrygc" type="containerLink"/>
+                  <link id="k8yqryge" targetId="k8yqrygf" type="containerLink"/>
+                  <link id="k8yqryhz" targetId="k8yqryi0" type="containerLink"/>
+                  <link id="k8yqryic" targetId="k8yqryid" type="containerLink"/>
+                  <link id="kdqy6hsr" targetId="kdqy6hss" type="containerLink"/>
+                  <link id="kdqy6huv" targetId="kdqy6huw" type="containerLink"/>
+                  <link id="kaagii2q" targetId="kaagii2p"/>
+               </container>
+               <container id="kaagii2p" type="parallel">
+                  <title>Parallel Paths 3 (LAXSQL2)</title>
+                  <flow id="kaagii2t">
+                     <eventContainer id="kaagii59">
+                        <service id="kaagii3a">
+                           <title>AIRALLIANCE_TBL</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIRALLIANCE_TBL</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">a2icmCLqNLvhmr1K7UYJOP</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIRALLIANCE-TBL">temp.AIRALLIANCE_TBL</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.AIRALLIANCE_TBL/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIRALLIANCE_TBL/fault"
+                                  id="kaagii57"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIRALLIANCE_TBL/fault"
+                                  id="kaagii58"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kaagii2u" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kaagii2w">
+                     <eventContainer id="kaagii6c">
+                        <service id="kaagii3o">
+                           <title>AIRBOOKINGSCOSTAGG_TBL</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIRBOOKINGSCOSTAGG_TBL</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">9tP7jes6V4phOFnMga8IgH</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIRBOOKINGSCOSTAGG-TBL">temp.AIRBOOKINGSCOSTAGG_TBL</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.AIRBOOKINGSCOSTAGG_TBL/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIRBOOKINGSCOSTAGG_TBL/fault"
+                                  id="kaagii6a"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIRBOOKINGSCOSTAGG_TBL/fault"
+                                  id="kaagii6b"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kaagii2x" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6hyb">
+                     <eventContainer id="kdqy6iet">
+                        <service id="kdqy6i6r">
+                           <title>AIRQUALITYCONNECTION_TBL</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIRQUALITYCONNECTION_TBL</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">10e5VMWrc8HknKQvfzyM8m</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIRQUALITYCONNECTION-TBL">temp.AIRQUALITYCONNECTION_TBL</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYCONNECTION_TBL/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYCONNECTION_TBL/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYCONNECTION_TBL/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYCONNECTION_TBL/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.AIRQUALITYCONNECTION_TBL/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIRQUALITYCONNECTION_TBL/fault"
+                                  id="kdqy6ier"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIRQUALITYCONNECTION_TBL/fault"
+                                  id="kdqy6ies"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6hyc" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6hyt">
+                     <eventContainer id="kdqy6igs">
+                        <service id="kdqy6i7d">
+                           <title>AIRQUALITYFLIGHTTIME_TBL</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIRQUALITYFLIGHTTIME_TBL</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">2m8B3GHbi85dkw6kX6zx6v</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIRQUALITYFLIGHTTIME-TBL">temp.AIRQUALITYFLIGHTTIME_TBL</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.AIRQUALITYFLIGHTTIME_TBL/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIRQUALITYFLIGHTTIME_TBL/fault"
+                                  id="kdqy6igq"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIRQUALITYFLIGHTTIME_TBL/fault"
+                                  id="kdqy6igr"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6hyu" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6hzc">
+                     <eventContainer id="kdqy6iir">
+                        <service id="kdqy6i7z">
+                           <title>AIRQUALITYSEATING_DASHBOARD_TBL</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIRQUALITYSEATING_DASHBOARD_TBL</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">0jFLSLllp6ChLuzLBzOMC7</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIRQUALITYSEATING-DASHBOARD-TBL">temp.AIRQUALITYSEATING_DASHBOARD_TBL</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Start_Time">Start Time</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.AIRQUALITYSEATING_DASHBOARD_TBL/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIRQUALITYSEATING_DASHBOARD_TBL/fault"
+                                  id="kdqy6iip"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIRQUALITYSEATING_DASHBOARD_TBL/fault"
+                                  id="kdqy6iiq"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6hzd" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6hzw">
+                     <eventContainer id="kdqy6ik8">
+                        <service id="kdqy6i8l">
+                           <title>AIR_QUALITY_BOOKINGS_2017_V2</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIR_QUALITY_BOOKINGS_2017_V2</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">hYvNF8Oy2kMfGaaahLUBim</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-2017-V2">temp.AIR_QUALITY_BOOKINGS_2017_V2</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_2017_V2/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_2017_V2/fault"
+                                  id="kdqy6ik6"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_2017_V2/fault"
+                                  id="kdqy6ik7"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6hzx" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6i0h">
+                     <eventContainer id="kdqy6ilp">
+                        <service id="kdqy6i97">
+                           <title>AIR_QUALITY_BOOKINGS_V2</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIR_QUALITY_BOOKINGS_V2</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">0sRPicaDgoEbjgQRdURLYi</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-V2">temp.AIR_QUALITY_BOOKINGS_V2</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_V2/fault"
+                                  id="kdqy6iln"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_V2/fault"
+                                  id="kdqy6ilo"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6i0i" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6i13">
+                     <eventContainer id="kdqy6in6">
+                        <service id="kdqy6i9t">
+                           <title>AIR_QUALITY_BOOKINGS_V2_2018</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIR_QUALITY_BOOKINGS_v2_2018</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">4wow1809CsRf2RLqv5WXkN</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2018">temp.AIR_QUALITY_BOOKINGS_V2_2018</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2018/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_V2_2018/fault"
+                                  id="kdqy6in4"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_V2_2018/fault"
+                                  id="kdqy6in5"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6i14" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="kdqy6i1q">
+                     <eventContainer id="kdqy6ion">
+                        <service id="kdqy6iaf">
+                           <title>GIO_TEST_TRAVEL_WITH</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_GIO_TEST_TRAVEL_WITH</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">0q586X1iiB0bl6CbJhiUGK</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-GIO-TEST-TRAVEL-WITH">temp.GIO_TEST_TRAVEL_WITH</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.GIO_TEST_TRAVEL_WITH/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.GIO_TEST_TRAVEL_WITH/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.GIO_TEST_TRAVEL_WITH/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.GIO_TEST_TRAVEL_WITH/fault"
+                                  id="kdqy6iol"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.GIO_TEST_TRAVEL_WITH/fault"
+                                  id="kdqy6iom"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="kdqy6i1r" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <flow id="ke83pvj4">
+                     <eventContainer id="ke83pvke">
+                        <service id="ke83pvjr">
+                           <title>AIR_QUALITY_BOOKINGS_V2_2019</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">86400</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">LAXSQL2_to_SF_AIR_QUALITY_BOOKINGS_v2_2019</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">4EotBMxMOkTlcHcvjLHqaS</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2019">temp.AIR_QUALITY_BOOKINGS_V2_2019</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.AIR_QUALITY_BOOKINGS_V2_2019/output/Error_Message">Error Message</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_V2_2019/fault"
+                                  id="ke83pvkc"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.AIR_QUALITY_BOOKINGS_V2_2019/fault"
+                                  id="ke83pvkd"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="ke83pvj5" targetId="kaagii2p" type="containerLink"/>
+                  </flow>
+                  <link id="kaagii2s" targetId="kaagii2t" type="containerLink"/>
+                  <link id="kaagii2v" targetId="kaagii2w" type="containerLink"/>
+                  <link id="kdqy6hya" targetId="kdqy6hyb" type="containerLink"/>
+                  <link id="kdqy6hys" targetId="kdqy6hyt" type="containerLink"/>
+                  <link id="kdqy6hzb" targetId="kdqy6hzc" type="containerLink"/>
+                  <link id="kdqy6hzv" targetId="kdqy6hzw" type="containerLink"/>
+                  <link id="kdqy6i0g" targetId="kdqy6i0h" type="containerLink"/>
+                  <link id="kdqy6i12" targetId="kdqy6i13" type="containerLink"/>
+                  <link id="kdqy6i1p" targetId="kdqy6i1q" type="containerLink"/>
+                  <link id="ke83pvj3" targetId="ke83pvj4" type="containerLink"/>
+                  <link id="kdqy6i5o" targetId="c"/>
+               </container>
+               <end id="c"/>
+            </flow>
+            <dependencies>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="RIGHTREZ-to-SF-AIR-PNR"
+                              isByCopy="true"
+                              name="RIGHTREZ-to-SF-AIR-PNR">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="Rightrezdb02-to-SF-PNRSTOREDFARE-AMERICAS"
+                              isByCopy="true"
+                              name="Rightrezdb02-to-SF-PNRSTOREDFARE-AMERICAS">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="RIGHTREZ-to-SF-AIR-PNRSTOREDFARE-OCEAN"
+                              isByCopy="true"
+                              name="RIGHTREZ-to-SF-AIR-PNRSTOREDFARE-OCEAN">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="Rightrezdb02-to-SF-PNR-AMERICAS"
+                              isByCopy="true"
+                              name="Rightrezdb02-to-SF-PNR-AMERICAS">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIRALLIANCE-TBL"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIRALLIANCE-TBL">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIRBOOKINGSCOSTAGG-TBL"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIRBOOKINGSCOSTAGG-TBL">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="ABE-PNR-to-SF-AIR-ABE-PNR"
+                              isByCopy="true"
+                              name="ABE-PNR-to-SF-AIR-ABE-PNR">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="ABE-PNRSEAT-to-SF-AIR-ABE-PNRSEAT"
+                              isByCopy="true"
+                              name="ABE-PNRSEAT-to-SF-AIR-ABE-PNRSEAT">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="ABE-PNR-STOREDFARE-to-SF-AIR-ABE-PNR-STOREDFARE"
+                              isByCopy="true"
+                              name="ABE-PNR-STOREDFARE-to-SF-AIR-ABE-PNR-STOREDFARE">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="RIGHTREZ-to-SF-AIR-PNR-OCEAN"
+                              isByCopy="true"
+                              name="RIGHTREZ-to-SF-AIR-PNR-OCEAN">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="RIGHTREZ-to-SF-AIR-PNRSTOREDFARE"
+                              isByCopy="true"
+                              name="RIGHTREZ-to-SF-AIR-PNRSTOREDFARE">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIRQUALITYCONNECTION-TBL"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIRQUALITYCONNECTION-TBL">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIRQUALITYFLIGHTTIME-TBL"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIRQUALITYFLIGHTTIME-TBL">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIRQUALITYSEATING-DASHBOARD-TBL"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIRQUALITYSEATING-DASHBOARD-TBL">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-2017-V2"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-2017-V2">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-V2"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-V2">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2018"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2018">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-GIO-TEST-TRAVEL-WITH"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-GIO-TEST-TRAVEL-WITH">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2019"
+                              isByCopy="true"
+                              name="LAXSQL2-to-SF-AIR-QUALITY-BOOKINGS-v2-2019">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters" name="output" type="reference"/>
+                     <field label="Fault" name="fault" type="reference"/>
+                  </detail>
+               </processObject>
+            </dependencies>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>7KHt9kg6hnRi9bE0DcE862</types1:GUID>
+      <types1:DisplayName>AIR_MASTER</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2020-09-14T20:48:08.547Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
