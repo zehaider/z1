@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "3DQBBmrCMaFbRnGHR3pAKm",
+    "name" : "__Zeeshan",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Zeeshan's Folder",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
