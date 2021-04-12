@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "02lML42z0GDhQzkOB7DZqT",
+    "name" : "FetchAttachment",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7vJQhtGci3zymbd-gt-1319871-2020-10-05T16:28:51.945Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Downloads attachment from a location on an agent via http.  This sample has the location on agent set to http://localhost:9090/examples/upload  (see binding GET url).",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}

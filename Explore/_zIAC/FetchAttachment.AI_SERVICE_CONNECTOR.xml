@@ -1,0 +1,71 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>7vJQhtGci3zymbd-gt-1319871-2020-10-05T16:28:51.945Z::svc.xml</types1:EntryId>
+      <types1:Name>FetchAttachment</types1:Name>
+      <types1:ParentFlowIds>QeH2PKDC0hCHbf2-gt-7304895-2021-03-09T14:10:59.686Z::conn.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+businesssconnector</types1:MimeType>
+      <types1:Description>Downloads attachment from a location on an agent via http.  This sample has the location on agent set to http://localhost:9090/examples/upload  (see binding GET url).</types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>zcai</types1:CreatedBy>
+      <types1:CreationDate>2020-10-05T16:28:52Z</types1:CreationDate>
+      <types1:ModifiedBy>zeeshan</types1:ModifiedBy>
+      <types1:ModificationDate>2020-11-02T13:54:34Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>zeeshan</types1:PublishedBy>
+      <types1:PublicationDate>2020-11-02T13:54:39Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connector/FetchAttachment/FetchAttachment_svcDef.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <businessConnector xmlns="http://schemas.informatica.com/socrates/data-services/2014/05/business-connector-model.xsd"
+                            agentOnly="true"
+                            debug="false"
+                            displayName="FetchAttachment"
+                            label=""
+                            name="FetchAttachment"
+                            uuid="82a2e42e-6972-4c0f-9f4a-cb343f13b425">
+            <description>Downloads attachment from a location on an agent via http.  This sample has the location on agent set to http://localhost:9090/examples/upload  (see binding GET url).</description>
+            <tags/>
+            <connectionAttributes xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"/>
+            <actions>
+               <action category=""
+                       failOnError="true"
+                       forSearch="false"
+                       label="Fetch"
+                       maxRedirects="100"
+                       name="Fetch"
+                       preemptiveAuth="true"
+                       responseEncoding="">
+                  <description/>
+                  <input>
+                     <parameter name="filename"
+                                nogen="true"
+                                required="false"
+                                testWith="445096.png"
+                                type="string"/>
+                  </input>
+                  <binding>
+                     <restSimpleBinding multiUsing="semicolonSeparated"
+                                        url="http://127.0.0.1:7080/dummy.txt"
+                                        verb="GET"/>
+                  </binding>
+                  <output>
+                     <field attachment="true"
+                            description=""
+                            name="FileAttachment"
+                            type="attachment"/>
+                  </output>
+               </action>
+            </actions>
+            <objects/>
+         </businessConnector>
+      </types1:Entry>
+      <types1:GUID>02lML42z0GDhQzkOB7DZqT</types1:GUID>
+      <types1:DisplayName>FetchAttachment</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-04-12T15:59:11.255Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
