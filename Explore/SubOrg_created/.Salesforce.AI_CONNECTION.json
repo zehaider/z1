@@ -1,0 +1,24 @@
+{
+  "objectInfo" : {
+    "id" : "2Z1nrAceAsLkcRFiw6qo0c",
+    "name" : "Salesforce",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bcmw7dvB8aabbgd-gt-26039544-2021-06-16T15:46:40.021Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ ]
+}
