@@ -1,0 +1,50 @@
+{
+  "objectInfo" : {
+    "id" : "bhYTAB4S9y8jZeWgUeQyky",
+    "name" : "Business Service18",
+    "type" : "BSERVICE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101ID27000000000077"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      }, {
+        "name" : "0101ID2800000000007X",
+        "value" : "bhYTAB4S9y8jZeWgUeQyky@POST_Visitor_new"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "dRvOuPmyRAkjbyzKcxIbma",
+    "name" : "9988",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101ID0B0000000000X8"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
