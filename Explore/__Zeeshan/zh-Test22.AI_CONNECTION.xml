@@ -1,0 +1,47 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>MIYxWPQE8jIw8jI-gt-10824268-2021-03-09T14:10:56.62Z::conn.xml</types1:EntryId>
+      <types1:Name>zh-Test22-1</types1:Name>
+      <types1:ParentFlowIds>ck1SwEYrwn2H0Fd-gt-10824528-2021-03-09T14:11:05.504Z::pd.xml</types1:ParentFlowIds>
+      <types1:MimeType>application/xml+connection</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>zeeshan</types1:CreatedBy>
+      <types1:CreationDate>2021-03-09T14:10:57Z</types1:CreationDate>
+      <types1:ModifiedBy>zeeshan</types1:ModifiedBy>
+      <types1:ModificationDate>2021-07-12T11:48:11Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>zeeshan</types1:PublishedBy>
+      <types1:PublicationDate>2021-07-12T12:03:43Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connection/zh-Test22-1/zh-Test22-1.conn.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <connection xmlns="http://schemas.informatica.com/socrates/data-services/2014/04/avosConnections.xsd"
+                     displayName="zh-Test22"
+                     label="zh-Test22"
+                     name="zh-Test22-1">
+            <description/>
+            <tags/>
+            <agent/>
+            <attributes/>
+            <businessConnector xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"
+                               agentOnly="false"
+                               connectorPath="project:/rt.connector/zh_Test22/zh_Test22_svcDef.xml"
+                               guid="d0GhMRVJjwWkAY90WOF9eT"
+                               name="zh_Test22-1"
+                               supportsConnectionTest="false"
+                               uuid="60d481a6-a1a9-451c-94b9-a81fc645f379">
+               <description/>
+            </businessConnector>
+         </connection>
+      </types1:Entry>
+      <types1:GUID>396rPaZZHpChHVF2w1O18z</types1:GUID>
+      <types1:DisplayName>zh-Test22</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-07-15T11:44:30.532Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

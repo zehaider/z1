@@ -1,0 +1,44 @@
+{
+  "objectInfo" : {
+    "id" : "396rPaZZHpChHVF2w1O18z",
+    "name" : "zh-Test22",
+    "type" : "AI_CONNECTION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "MIYxWPQE8jIw8jI-gt-10824268-2021-03-09T14:10:56.62Z::conn.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "d0GhMRVJjwWkAY90WOF9eT",
+    "name" : "zh_Test22",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "FnAnOjseGbciZBp-gt-7304797-2021-03-09T14:10:56.502Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/__Zeeshan"
+  } ]
+}
