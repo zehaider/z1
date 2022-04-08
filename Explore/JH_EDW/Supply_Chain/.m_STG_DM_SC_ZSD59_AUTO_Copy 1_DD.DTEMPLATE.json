@@ -1,0 +1,87 @@
+{
+  "objectInfo" : {
+    "id" : "8JmtIgMvnQQkKL6Q5rbJSu",
+    "name" : "m_STG_DM_SC_ZSD59_AUTO_Copy 1_DD",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101ID170000000003FQ"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Updated stgdb",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "6xiOe5SahcyfQk0GLH0UOS",
+    "name" : "SQLServer_INTGDB",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101ID0B00000000015G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "JH EDW QA",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7PcFsJ9262Xef7PmIQQiaK",
+    "name" : "SQLServer_DMSDB",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101ID0B00000000012U"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "JH Data Mart for Sales in QA",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "36wNiUzv3sdlrAovLtFbm1",
+    "name" : "SQLServer_STGDB",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101ID0B00000000000U"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "JH EDW Development",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

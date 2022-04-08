@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "0OQgcjSqfbkjQSmRHsbSOm",
+    "name" : "Supply_Chain",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Supply_Chain ",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
